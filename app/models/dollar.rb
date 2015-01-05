@@ -6,6 +6,6 @@ class Dollar
   end
 
   def times(multilayer)
-    @amount = @amount * multilayer
+    self.class.new @amount * multilayer
   end
 end
